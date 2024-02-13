@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Tears with Flowers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+	
+    <div id="container">
+	<a href="heart.html"><i class="fas fa-heart choice"></i></a>
+    <a href="flower.html"><i class="fas fa-seedling choice"></i></a>
+	<a href="chocolate.html"><i class="fas fa-cookie choice"></i></a>
+        <h1>My Fond Memories Of You</h1>
+        <div class="slideshow-container">
+            <div class="slick-carousel">
+				<div><video controls class="small-video"><source src="heyo.mp4" type="video/mp4"></video></div>
+				<div><video controls class="small-video"><source src="lego.mp4" type="video/mp4"></video></div>
+                <div><video controls class="small-video"><source src="picnic.mp4" type="video/mp4"></video></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Add the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Add the Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        // Initialize the Slick Carousel
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                autoplay: true, // Autoplay the slideshow
+                autoplaySpeed: 3000, // Set the autoplay speed to 3 seconds per slide
+                arrows: false, // Hide the default navigation arrows
+                dots: true // Show the navigation dots
+            });
+        });
+    </script>
+	
+</body>
+</html>

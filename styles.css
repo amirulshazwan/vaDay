@@ -1,0 +1,55 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5deb3; /* Cream background */
+    color: #8b4513; /* Brown text color */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure container takes up full viewport height */
+}
+
+#container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center; /* Center align content */
+}
+
+h1 {
+    color: #8b4513; /* Brown color for headings */
+    font-size: 36px; /* Larger font size for headings */
+}
+
+.content {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 18px; /* Larger font size for paragraphs */
+}
+
+/* Adjusted image and video sizes */
+.small-image {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.small-video {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Larger emoji */
+.choice {
+    font-size: 48px; /* Bigger font size for emoji */
+    color:  #FF7F50; /* Pink color for emoji */
+}
